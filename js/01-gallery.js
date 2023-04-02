@@ -10,7 +10,7 @@ const images = galleryItems
   .join("");
 gallery.insertAdjacentHTML("afterbegin", images);
 
-function CreateModal(e) {
+function createModal(e) {
   e.preventDefault();
   if (e.target.classList.value === "gallery__image") {
     basicLightbox
